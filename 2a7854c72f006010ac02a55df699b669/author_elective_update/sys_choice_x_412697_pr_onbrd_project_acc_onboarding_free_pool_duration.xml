@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="free_pool_duration" table="x_412697_pr_onbrd_project_acc_onboarding" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>free_pool_duration</element>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:10</sys_created_on>
+            <sys_id>541c144f2f006010ac02a55df699b619</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>free_pool_duration</sys_name>
+            <sys_package display_value="Project Onboarding Application" source="x_412697_pr_onbrd">2a7854c72f006010ac02a55df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Onboarding Application">2a7854c72f006010ac02a55df699b669</sys_scope>
+            <sys_update_name>sys_choice_x_412697_pr_onbrd_project_acc_onboarding_free_pool_duration</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>free_pool_duration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Not Applicable</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d41c144f2f006010ac02a55df699b618</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:10</sys_updated_on>
+            <value>not_applicable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>free_pool_duration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>&lt; 1 month</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>981c144f2f006010ac02a55df699b61c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:10</sys_updated_on>
+            <value>_1months</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>free_pool_duration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>&lt; 3 months</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>141c144f2f006010ac02a55df699b61f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:10</sys_updated_on>
+            <value>_3_months</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>free_pool_duration</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>&gt; 3 months and so</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c1c144f2f006010ac02a55df699b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:10</sys_updated_on>
+            <value>_3_months_and_so</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

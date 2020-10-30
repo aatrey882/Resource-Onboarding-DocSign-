@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Project/Acc Onboarding" max_length="40" name="x_412697_pr_onbrd_project_acc_onboarding" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Asset" max_length="100" name="asset" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" display="true" label="Designation" max_length="40" name="designation" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Architect" value="architect"/>
+                <element inactive_on_update="false" label="Developer" value="developer"/>
+                <element inactive_on_update="false" label="Lead Administrator" value="lead_administrator"/>
+                <element inactive_on_update="false" label="Lead Consultant" value="lead_consultant"/>
+                <element inactive_on_update="false" label="Principal Consultant" value="principal_consultant"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Employee ID" max_length="100" name="employee_id" type="string"/>
+        <element attributes="encode_utf8=false" label="Employee Name" max_length="32" name="employee_name" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not_applicable" label="Free Pool Duration" max_length="40" name="free_pool_duration" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="&lt; 1 month" value="_1months"/>
+                <element inactive_on_update="false" label="&lt; 3 months" value="_3_months"/>
+                <element inactive_on_update="false" label="&gt; 3 months and so" value="_3_months_and_so"/>
+                <element inactive_on_update="false" label="Not Applicable" value="not_applicable"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="From" max_length="40" name="from" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="New Manager" max_length="40" name="new_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New Project" max_length="100" name="new_project" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prev.Manager" max_length="100" name="prev_manager" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Prev. Project" max_length="100" name="prev_project" type="string"/>
+        <element label="Resource Acknowledge" max_length="40" name="resource_acknowledge" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Roles and Responsibilities" max_length="8000" name="roles_and_responsibilities" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="To" max_length="40" name="to" type="glide_date_time"/>
+        <index name="index">
+            <element name="employee_name"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

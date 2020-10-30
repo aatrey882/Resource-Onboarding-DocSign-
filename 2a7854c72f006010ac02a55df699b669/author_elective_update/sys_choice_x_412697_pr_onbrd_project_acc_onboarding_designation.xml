@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="designation" table="x_412697_pr_onbrd_project_acc_onboarding" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>designation</element>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:11</sys_created_on>
+            <sys_id>e81c144f2f006010ac02a55df699b62c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>designation</sys_name>
+            <sys_package display_value="Project Onboarding Application" source="x_412697_pr_onbrd">2a7854c72f006010ac02a55df699b669</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Onboarding Application">2a7854c72f006010ac02a55df699b669</sys_scope>
+            <sys_update_name>sys_choice_x_412697_pr_onbrd_project_acc_onboarding_designation</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Architect</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a81c144f2f006010ac02a55df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:11</sys_updated_on>
+            <value>architect</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Developer</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>241c144f2f006010ac02a55df699b637</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:11</sys_updated_on>
+            <value>developer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lead Administrator</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>601c144f2f006010ac02a55df699b62c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:11</sys_updated_on>
+            <value>lead_administrator</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lead Consultant</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>201c144f2f006010ac02a55df699b632</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:11</sys_updated_on>
+            <value>lead_consultant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>designation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Principal Consultant</label>
+            <language>en</language>
+            <name>x_412697_pr_onbrd_project_acc_onboarding</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-10-28 13:05:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a41c144f2f006010ac02a55df699b62f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-10-28 13:05:11</sys_updated_on>
+            <value>principal_consultant</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
